@@ -1,5 +1,50 @@
 # Changelog
 
+## 26-11-13.57
+
+**Sensors**
+- Fixed: “Range, forecast” no longer shows 0 with charge hold on
+
+**Navigation**
+- “Yandex Auto settings” are now called “Navigator settings”; the switches are “Remove 3D buildings” and “Remove 3D landmarks”
+
+**Cameras**
+- Reversing: “None” option — no reversing cameras, the front camera after reversing and on the button still works
+- Fixed: on the instrument cluster, the turn camera no longer interrupts the front camera and the reversing cameras
+
+**HUD**
+- Front camera from a steering wheel button: the OK button switches between it and “Mirror cameras forward”, as after “R”; the chosen view is remembered
+- Fixed: the HUD Speed window stays where its plate is in the layout and no longer shifts when cameras are shown
+- Fixed: the speed next to the wide turn camera is cyan in “Snow mode”
+
+**Instrument cluster**
+- Fixed: “Автомобиль впереди начал движение” (“Vehicle ahead has started moving”) instead of the factory Russian text with a typo
+
+**Controls**
+- “Climate”: “Restore climate” — the climate, seat and steering wheel heating and ventilation, and window heating return to how they were left
+- “Remote access”: an engine start by a security system (for example, StarLine) on a locked car is recognized at once; while the engine or climate it started is running, the power-off timer does not cut the warm-up
+- “Remote access”: after the relay wakes the car, the status bar shows how many minutes are left until the car goes to sleep; the power-off timer counts from when the infotainment system started
+- “Remote access”: climate now includes automatic heating of the driver and passenger seats and the seat and steering wheel heating time
+- Fixed: “Remote access” — the screen no longer lights up on the locked vehicle when it switches off after a remote start
+- Fixed: car wash mode no longer turns itself off if the car is on and locked from inside — for example, by itself when shifting to “D”
+
+**Driver assistance**
+- “Automatic emergency braking (AEB)” and “Forward collision warning (FCW)”; the choice is restored every time the car is switched on. As in the standard settings, AEB can only be turned off below 10 km/h
+
+**Buttons**
+- On firmware 2.2.0 and later — “Speed limiter”: holding any steering wheel button or a short press of the star button switches the cruise button between cruise control and the speed limiter
+- On firmware 2.2.0 and later, a short press of the star button no longer offers the front camera and “Sport”: the standard button would also switch the speed limiter along with them
+
+**Sound**
+- “External speaker”: your voice through the speaker outside the car — for example, to warn a pedestrian. Talk by holding the button in the window or an assigned steering wheel button, or by tapping the status bar button (it turns off by itself after 30 seconds). The window also has volume with “Boost”, your own phrase up to 10 seconds, your own sound from a USB drive and a test with the “Space” melody. Volume needs the GeelyMediaBridge 26-11-12.5 system copy
+- Volume of the speeding chime for the Navigator sign: “Quiet”, “Normal” or “Loud”; “Normal” is as loud as the assistant chime — the chime used to be half as loud
+- “Amplifier restart” is now in Sound, as the last item; if the amplifier does not accept a restart, the window suggests opening the driver’s door
+- “Experimental”: “Loudness” and, on hybrids, “Engine noise cancellation (EOC)” — hidden settings from the engineering menu
+- Fixed: custom pedestrian warning sound on EX5 EV — plays forward and in reverse
+
+**Status bar**
+- “HDC” button: one tap turns hill descent control on or off; the button is orange while HDC is on
+
 ## 26-11-10.67
 
 **Sensors**
