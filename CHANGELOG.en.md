@@ -19,6 +19,7 @@
 
 **Instrument cluster**
 - Fixed: “Автомобиль впереди начал движение” (“Vehicle ahead has started moving”) instead of the factory Russian text with a typo
+- Fixed: a third-party player that was closed and opened again shows the track and cover on the instrument cluster and the dock right away and responds to the steering wheel buttons even before “Play”; “Play” on the steering wheel starts the last third-party player. Requires the GeelyMediaBridge 26-11-14.1 system copy (14.11 — over-the-air update)
 
 **Controls**
 - “Climate”: “Restore climate” — the climate, seat and steering wheel heating and ventilation, and window heating return to how they were left
