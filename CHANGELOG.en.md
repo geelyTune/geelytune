@@ -1,5 +1,27 @@
 # Changelog
 
+## 26-11-22.5
+
+### Added
+- **Navigation.** 2GIS maps on the HUD and instrument cluster (2GIS 7.31+). On firmware 2.2.0, the Yandex Maps icon is a separate shortcut.
+- **HUD.** Four Snow mode card colors with a preview. The same color can be enabled separately for the map and route information, and for labels in compatible versions of HUD Speed. Added a speed limiter indicator and cards for average electricity use and, on hybrids, fuel consumption.
+- **Instrument cluster.** The Vehicle page shows tire pressure when there is no route. Route information opens when a route appears. The steering wheel arrows cycle through the Vehicle and Average energy consumption pages.
+- **Controls.** The voice assistant and print service can be turned off. On hybrids with firmware 2.2.0 or later, the steering wheel speed limiter step can be set from 1 to 20 km/h. Remote access settings are grouped. Remotely activated heating can stop when the car is unlocked or when the timer ends. Central locking and Comfort parking have separate shortcuts. Use Uninstall GeelyTune to remove the app.
+- **Buttons.** Hold current charge on hybrids sets the hold level just above the current charge.
+- **Status bar.** The HOLD button turns charge hold on or off at the set level. Added separate windshield and rear window heating buttons.
+- **Maintenance.** Logs now include the system-reported reason when GeelyTune closes unexpectedly.
+### Fixed
+- **Sensors.** The range forecast accounts for outside temperature.
+- **Navigation.** If the navigation app fails to respond, the reason is shown. The map reconnects after switching navigation apps.
+- **HUD.** Map and route information widths are independent. Route information appears only when there is a route. The turn-signal camera window fully hides the map and cruise control icons. The Snow mode color is restored after a restart.
+- **Instrument cluster.** The map stays visible when switching from route information to tire pressure. Switching also works on EVs with four menu items. Large album art no longer restarts the status bar or apps. On supported firmware, album art is sharper with the cover art fix enabled. Radio, USB and Bluetooth keep priority. Third-party tracks return immediately after radio playback and clear when a factory source starts or the player is uninstalled. Clarified the accelerator warning while cruise control is active.
+- **Controls.** If the head unit wakes while the car is locked, the sunroof shade opens automatically when the car is unlocked from outside. GeelyTune retries turning on Wi‑Fi if the system rejects the first request. Climate and heating are restored once after parking, and manual changes are saved. Remote access accounts for driver presence, open doors and charging. The navigation audio channel fix installs on Flyme Auto 2.5.0.
+- **Driving.** After charging, the selected Electric mode returns if low charge caused the car to switch to Hybrid.
+- **Lights.** Lights set through GeelyTune return to Auto when the car is locked from outside. The factory setting is preserved.
+- **Status bar.** Removed the power-off countdown after remote wake-up.
+- **Update.** What’s New appears immediately after an over-the-air update.
+- **Maintenance.** Large logs are compressed and trip records stay in the car. Turning off microphone access no longer triggers the general permissions prompt.
+
 ## 26-11-22.1
 
 ### Added
