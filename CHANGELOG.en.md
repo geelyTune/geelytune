@@ -1,5 +1,21 @@
 # Changelog
 
+## 26-11-22.49
+
+### Added
+
+- **HUD.** Added remaining fuel and free tank capacity tiles for hybrids.
+- **Controls.** With “Close windows and sunroof” enabled, open windows and the sunroof close when the vehicle is locked from outside. The panoramic sunshade stays in its current position.
+- **Status bar.** Added a driver seat heating button. The seat and steering wheel heating buttons show the current level and cycle through the available levels.
+- **Update.** The Radio component displays station names on compatible EX5 EM-i and EX5 EV vehicles.
+
+### Fixed
+
+- **Sensors.** Coolant temperature polling pauses when the vehicle is locked from outside or goes to sleep.
+- **HUD.** Fixed color changes in Snow mode.
+- **Lights.** The position lights or low beam switch to Auto when “Lights when parked” is turned off. After a GeelyTune update, lights set by the app while parked still return to Auto when the vehicle is locked.
+- **Status bar.** The green charging and HOLD tiles are easier to read in both themes.
+
 ## 26-11-22.5
 
 ### Added
